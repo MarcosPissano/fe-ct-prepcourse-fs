@@ -13,6 +13,7 @@ const nuevoNumero = 2023;
 // Crea una variable de tipo boolean.
 const nuevoBoolean = true;
 
+
 // Resuelve el siguiente problema matemático.
 const nuevaResta = 10 - 7 === 3;
 
