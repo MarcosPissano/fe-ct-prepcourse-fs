@@ -3,18 +3,22 @@
 function devolverPrimerElemento(array) {
    // Retornar el primer elemento del arreglo recibido por parámetro.
    // Tu código:
-   return array [0];
+   // return array [0];
+   return array.shift();
+
 }
 
 function devolverUltimoElemento(array) {
    // Retornar el último elemento del arreglo recibido por parámetro.
    // Tu código:
-   return array [array.length-1];
+   // return array [array.length-1];
+   return array.pop();
 }
 
 function obtenerLargoDelArray(array) {
    // Retornar la longitud del arreglo recibido por parámetro.
    // Tu código:
+   // return [...array].push(false);
    return array.length
 }
 
@@ -26,6 +30,9 @@ function incrementarPorUno(array) {
   for (var i = 0 ; i < array.length; i ++)
   nuevoArray [i] = array [i] + 1;
   return nuevoArray
+
+// arrayMasUno.push(array[i] + 1);
+
 }
 
 
@@ -87,6 +94,7 @@ function numeroMasGrande(arrayOfNums) {
    // El parámetro "arrayOfNums" es un arreglo de números.
    // Retornar el número más grande.
    // Tu código:
+   // return Math.max(...arrayOfNums);
    var maximo = arrayOfNums[0]
    for (var i = 1; i < arrayOfNums.length; i ++)
    if (arrayOfNums[i] > maximo) {

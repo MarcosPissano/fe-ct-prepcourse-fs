@@ -8,8 +8,6 @@ function deObjetoAarray(objeto) {
    // Tu código:
    
       return Object.entries(objeto);
-    
-    
 }
                          
 function numberOfCharacters(string) {

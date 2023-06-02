@@ -18,6 +18,7 @@ function mayoriaDeEdad(edad) {
    // Si tiene 18 años ó más debe retornar el string: "Allowed".
    // Caso contrario: "Not allowed".
    // Tu código:
+
    if ( edad >= 18) {
       return "Allowed";
    }
@@ -33,6 +34,7 @@ function conection(status) {
    // De lo contrario, presumimos que el usuario está "Offline".
    // Retornar el estado de conexión del usuario.
    // Tu código:
+
    if (status === 1) {
    return "Online";
    }
@@ -74,26 +76,25 @@ function colors(color) {
    // Si no es ninguno de esos colores           --> "Color not found".
    // IMPORTANTE: utilizar el statement SWITCH.
    // Tu código:
-   if (color === "blue") {
-      return "This is blue";
+   switch (color) {
+      case "blue" : 
+         return "This is blue";
+      case  "red" : 
+         return "This is red";
+      case  "green" : 
+         return "This is green"; 
+      case  "orange" : 
+         return "This is orange";
+      default:
+         return "Color not found";      
    }
-      if (color === "red") {
-         return "This is red"
-      }
-         if (color === "green") {
-            return "This is green";
-         }
-            if (color === "orange") {
-               return "This is orange";
-            }
-               else 
-                  return "Color not found";
 }
 
 function esDiezOCinco(num) {
    // Retornar true si "num" es 10 o 5.
    // De lo contrario, retornar false.
    // Tu código:
+
    if (num === 10 || num === 5) {
       return true;
    }
@@ -121,12 +122,18 @@ function esEntero(num) {
    // Ejemplo: (-10) ---> true
    // De lo contrario, retorna false.
    // Tu código:
-   if (num === Math.floor(num)) {
+   if (num === Math.ceil(num)) {
       return true;
    } 
    else {
       return false;
    }
+   // if (num === Math.floor(num)) {
+   //    return true;
+   // } 
+   // else {
+   //    return false;
+   // }
 }
 
 function fizzBuzz(num) {
