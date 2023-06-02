@@ -18,6 +18,7 @@ function esPositivo(num) {
    //    return false;
    
       return num > 0 ? "Es positivo" : num < 0 ? "Es negativo" : false;
+      
     }
    
 
