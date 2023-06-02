@@ -10,7 +10,6 @@ function obtenerMayor(x, y) {
       } else {
         return y;
       }
-    
 }
 
 function mayoriaDeEdad(edad) {
