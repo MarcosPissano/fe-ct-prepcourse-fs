@@ -5,7 +5,6 @@ function devolverPrimerElemento(array) {
    // Tu código:
    // return array [0];
    return array.shift();
-
 }
 
 function devolverUltimoElemento(array) {
