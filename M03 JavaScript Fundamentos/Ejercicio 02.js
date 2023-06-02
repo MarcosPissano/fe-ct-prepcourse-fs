@@ -13,6 +13,7 @@ function suma(x, y) {
    // Retorna el resultado de su suma.
    // Tu código:
    return x + y;
+   
 }
 
 function resta(x, y) {

@@ -10,6 +10,7 @@ function elevarAlCuadrado(num) {
    return (num ** 2);
 }
 
+
 function elevarAlCubo(num) {
    // Retorna el valor de "num" elevado al cubo.
    // Tu código:
